@@ -1,63 +1,49 @@
-Poojitha Gawni - Personal Portfolio Website
-This is my personal portfolio website
+# 🌟 Poojitha Gawni — Personal Portfolio Website
 
-✨ Features
-Responsive Design: Optimized for seamless viewing across all devices (desktops, tablets, and mobile phones).
+Welcome to my **personal portfolio website** — a sleek, responsive showcase of my skills, projects, and developer journey.
 
-Smooth Navigation: Intuitive navigation bar with smooth scrolling to different sections of the portfolio.
+---
 
-Dynamic Hero Section: Engaging introduction with a gradient background animation.
+## ✨ Features
 
-Interactive Skill Bars: Skill proficiency bars animate upon scrolling into view, and their percentage values can be toggled on/off by tapping/clicking.
+✅ **Responsive Design** — Looks great on desktops, tablets, and mobile devices.  
+✅ **Smooth Navigation** — Intuitive navbar with smooth scrolling.  
+✅ **Dynamic Hero Section** — Eye-catching intro with gradient background animation.  
+✅ **Animated Skill Bars** — Interactive skill bars that animate on scroll with toggleable percentage values.  
+✅ **Education Timeline** — Visually engaging timeline to highlight my academic milestones.  
+✅ **Project Showcase** — Dedicated section to present projects with descriptions, tech stacks, and GitHub links.  
+✅ **Contact Form** — Simple `mailto` form for quick direct emails.  
+✅ **Modern UI** — Dark theme with vibrant accent colors for a clean, professional look.
 
-Timeline for Education: A visually appealing timeline to highlight academic achievements.
+---
 
-Project Showcase: Dedicated section to display key projects with descriptions, technologies used, and GitHub links.
+## 💻 Technologies Used
 
-Contact Form: A functional contact form (utilizing mailto for direct email communication).
+- **HTML5** — Semantic and structured content
+- **CSS3** — Custom styling, animations, and responsive layouts
+- **JavaScript (ES6+)** — Interactive elements, smooth scrolling, skill bar animations
+- **Google Fonts:**  
+  - *Poppins* — For headings & highlights  
+  - *Inter* — For body text
 
-Clean and Modern UI: Designed with a dark theme and vibrant accent colors for a professional and appealing look.
+---
 
-💻 Technologies Used
-HTML5: For structuring the content of the web pages.
+## 🚀 Getting Started
 
-CSS3: For styling and creating a responsive, visually appealing layout, including custom animations and media queries.
+To run this portfolio **locally**:
 
-JavaScript (ES6+): For interactive elements, smooth scrolling, skill bar animations using IntersectionObserver, and contact form handling.
+```bash
+# Clone the repository
+git clone https://github.com/poojitha2704/My_Personal_Portfolio.git
 
-Google Fonts:
-
-Poppins: Used for headings and prominent text.
-
-Inter: Used for body text for readability.
-
-🚀 Getting Started
-To view this portfolio locally, follow these simple steps:
-
-Clone the repository:
-
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
-
-(Replace YOUR_GITHUB_USERNAME and YOUR_REPO_NAME with your actual GitHub username and repository name.)
-
-Navigate to the project directory:
-
-cd YOUR_REPO_NAME
-
-Open index.html: Simply open the index.html file in your preferred web browser.
-
-# On macOS
-open index.html
-
-# On Windows
-start index.html
+# Move into the project folder
+cd My_Personal_Portfolio
 
 🌐 Live Demo
-https://pooji-personal-portfolio.netlify.app/
+👉 https://pooji-personal-portfolio.netlify.app/
 
-📧 Contact
-Feel free to reach out to me!
+📧 Contact Me
+Let’s connect — I’d love to hear from you!
+📧 Email: poojithagawni@gmail.com
 
-Email: poojithagawni@gmail.com
-
-GitHub: https://github.com/poojitha2704
+⭐️ Thank you for visiting my portfolio!
