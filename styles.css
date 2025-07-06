@@ -956,3 +956,20 @@ section {
         font-size: 1rem;
     }
 }
+.contact-email, .contact-linkedin {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid var(--bright-blue);
+  border-radius: 30px;
+  margin-bottom: 15px;
+  color: var(--white);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-email:hover, .contact-linkedin:hover {
+  background: var(--bright-blue);
+  color: var(--white);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+  transform: translateY(-2px);
+}
