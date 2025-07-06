@@ -1,73 +1,63 @@
-# Welcome to your Lovable project
+Poojitha Gawni - Personal Portfolio Website
+This is my personal portfolio website
 
-## Project info
+✨ Features
+Responsive Design: Optimized for seamless viewing across all devices (desktops, tablets, and mobile phones).
 
-**URL**: https://lovable.dev/projects/af0a871f-5982-4bad-bc70-1cc9cbd6f4c8
+Smooth Navigation: Intuitive navigation bar with smooth scrolling to different sections of the portfolio.
 
-## How can I edit this code?
+Dynamic Hero Section: Engaging introduction with a gradient background animation.
 
-There are several ways of editing your application.
+Interactive Skill Bars: Skill proficiency bars animate upon scrolling into view, and their percentage values can be toggled on/off by tapping/clicking.
 
-**Use Lovable**
+Timeline for Education: A visually appealing timeline to highlight academic achievements.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/af0a871f-5982-4bad-bc70-1cc9cbd6f4c8) and start prompting.
+Project Showcase: Dedicated section to display key projects with descriptions, technologies used, and GitHub links.
 
-Changes made via Lovable will be committed automatically to this repo.
+Contact Form: A functional contact form (utilizing mailto for direct email communication).
 
-**Use your preferred IDE**
+Clean and Modern UI: Designed with a dark theme and vibrant accent colors for a professional and appealing look.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+💻 Technologies Used
+HTML5: For structuring the content of the web pages.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+CSS3: For styling and creating a responsive, visually appealing layout, including custom animations and media queries.
 
-Follow these steps:
+JavaScript (ES6+): For interactive elements, smooth scrolling, skill bar animations using IntersectionObserver, and contact form handling.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Google Fonts:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Poppins: Used for headings and prominent text.
 
-# Step 3: Install the necessary dependencies.
-npm i
+Inter: Used for body text for readability.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+🚀 Getting Started
+To view this portfolio locally, follow these simple steps:
 
-**Edit a file directly in GitHub**
+Clone the repository:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
 
-**Use GitHub Codespaces**
+(Replace YOUR_GITHUB_USERNAME and YOUR_REPO_NAME with your actual GitHub username and repository name.)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Navigate to the project directory:
 
-## What technologies are used for this project?
+cd YOUR_REPO_NAME
 
-This project is built with:
+Open index.html: Simply open the index.html file in your preferred web browser.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+# On macOS
+open index.html
 
-## How can I deploy this project?
+# On Windows
+start index.html
 
-Simply open [Lovable](https://lovable.dev/projects/af0a871f-5982-4bad-bc70-1cc9cbd6f4c8) and click on Share -> Publish.
+🌐 Live Demo
+https://pooji-personal-portfolio.netlify.app/
 
-## Can I connect a custom domain to my Lovable project?
+📧 Contact
+Feel free to reach out to me!
 
-Yes, you can!
+Email: poojithagawni@gmail.com
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+GitHub: https://github.com/poojitha2704
