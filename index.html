@@ -10,6 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        // Initialize EmailJS with your Public Key (User ID)
+        // Public Key provided by you: jfhrFpDKnUzyskAWm
+        (function() {
+            emailjs.init("jfhrFpDKnUzyskAWm");
+        })();
+    </script>
 </head>
 <body>
     <!-- Navigation -->
@@ -294,7 +304,7 @@
                         </div>
                         <div class="project-links">
                             <!-- You can add a link to your GitHub repo for the portfolio itself here -->
-                            <a href="https://github.com/poojitha2704/My_Personal_Portfolio" class="project-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://github.com/poojitha2704-/YOUR_PORTFOLIO_REPO" class="project-link" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                             <!-- If you have a live demo, add it here -->
                             <!-- <a href="YOUR_LIVE_DEMO_URL" class="project-link" target="_blank" rel="noopener noreferrer">Live Demo</a> -->
                         </div>
@@ -361,13 +371,27 @@
                     <h3>Get In Touch</h3>
                     <p>Ready to collaborate? Let's build something amazing together!</p>
                     <div class="contact-details">
-                        <!-- Email Link -->
-                        <p><strong>Email:</strong> <a href="mailto:poojithagawni@gmail.com" class="social-link">poojithagawni@gmail.com</a></p>
-                        <!-- LinkedIn Link -->
+                        <p><strong>Email:</strong> poojithagawni@gmail.com</p>
+                        <!-- LinkedIn Link added back -->
                         <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/poojitha-gawni-b6b6b6b6/" target="_blank" rel="noopener noreferrer" class="social-link">linkedin.com/in/poojitha-gawni</a></p>
                     </div>
+                    <div class="social-links">
+                        <!-- This social link is now moved to footer-links -->
+                    </div>
                 </div>
-                <!-- Contact form removed as per request -->
+                <!-- Contact form re-added -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
             </div>
         </div>
     </section>
