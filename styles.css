@@ -1,4 +1,4 @@
-/* General Body and Base Styles (existing) */
+/* General Body and Base Styles */
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -50,7 +50,7 @@ section.animated { /* Class added by JS when element enters viewport */
     border-radius: 2px;
 }
 
-/* Navigation (existing) */
+/* Navigation */
 .navbar {
     background-color: rgba(26, 26, 46, 0.9); /* Slightly transparent dark background */
     padding: 15px 0;
@@ -122,7 +122,7 @@ section.animated { /* Class added by JS when element enters viewport */
     width: 100%;
 }
 
-/* Hamburger menu for mobile (existing) */
+/* Hamburger menu for mobile */
 .hamburger {
     display: none; /* Hidden on desktop */
     flex-direction: column;
@@ -153,7 +153,7 @@ section.animated { /* Class added by JS when element enters viewport */
 }
 
 
-/* Hero Section (existing) */
+/* Hero Section */
 .hero {
     height: 100vh;
     display: flex;
@@ -266,7 +266,7 @@ section.animated { /* Class added by JS when element enters viewport */
     to { opacity: 1; transform: scale(1); }
 }
 
-/* About Section (existing) */
+/* About Section */
 .about {
     background-color: #1a1a2e;
 }
@@ -305,7 +305,7 @@ section.animated { /* Class added by JS when element enters viewport */
     margin-bottom: 10px;
 }
 
-/* Education Section (existing) */
+/* Education Section */
 .education {
     background-color: #0f0f1a;
 }
@@ -394,7 +394,7 @@ section.animated { /* Class added by JS when element enters viewport */
     font-size: 1rem;
 }
 
-/* Skills Section (existing) */
+/* Skills Section */
 .skills {
     background-color: #1a1a2e;
 }
@@ -492,7 +492,7 @@ section.animated { /* Class added by JS when element enters viewport */
     opacity: 1;
 }
 
-/* Projects Section (existing) */
+/* Projects Section */
 .projects {
     background-color: #0f0f1a;
 }
@@ -590,7 +590,7 @@ section.animated { /* Class added by JS when element enters viewport */
 }
 
 
-/* Contact Section (updated for spacing) */
+/* Contact Section */
 .contact {
     background-color: #1a1a2e;
     text-align: center; /* Center the content */
@@ -720,7 +720,7 @@ section.animated { /* Class added by JS when element enters viewport */
 }
 
 
-/* Footer (existing) */
+/* Footer */
 .footer {
     background-color: #0f0f1a;
     color: #c0c0c0;
@@ -754,7 +754,7 @@ section.animated { /* Class added by JS when element enters viewport */
     color: #3b82f6;
 }
 
-/* Media Queries (existing) */
+/* Media Queries */
 @media (max-width: 768px) {
     .nav-menu {
         flex-direction: column;
